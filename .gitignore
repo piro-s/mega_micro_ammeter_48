@@ -1,0 +1,38 @@
+# Ignore all files
+*
+
+# Don't ignore Git files
+!.gitignore
+
+# Don't ignore readme
+!readme.md
+!readme.html
+
+# Don't ignore datashits
+!datashits/*
+
+# Don't ignore docs
+!docs/*
+
+# Don't ignore images
+!images/**
+
+# Don't ignore gerber generated files
+!gerber/mega_micro_ammeter_48*.zip
+
+# Don't ignore modeling
+!model/*
+
+# Don't ignore KiCad files
+!*.kicad_pcb
+!*.pro
+!*.sch
+
+# Don't ignore program files
+!*.c
+!*.h
+!*.hex
+
+
+# Even if they are in subdirectories
+!**/ 
